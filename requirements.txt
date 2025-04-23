@@ -1,0 +1,22 @@
+# Dependências principais
+python-telegram-bot==20.0
+yfinance==0.2.18
+pandas==2.1.4  # Versão compatível com Py 3.11
+numpy==1.26.4
+requests==2.31.0
+beautifulsoup4==4.12.3
+
+# IA e processamento
+transformers==4.36.2
+torch==2.2.1  # Resolve o aviso do PyTorch
+sentencepiece==0.2.0  # Necessário para transformers
+
+# Servidor
+flask==2.3.3
+werkzeug==3.0.1  # Versão compatível com Flask 2.3.x
+gunicorn==21.2.0
+
+# Utilitários
+pytz==2024.1
+tqdm==4.66.2  # Para progress bars
+python-dotenv==1.0.1  # Gerenciamento de variáveis
